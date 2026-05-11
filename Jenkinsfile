@@ -53,7 +53,7 @@ pipeline {
 
         stage('Deploy to EC2') {
             steps {
-                sshagent(['ec2-ssh-credentials']) {  // Must match your credentials ID
+                sshagent(['ssh-key']) {  // Must match your credentials ID
                     sh '''
                         # Copy WAR to EC2
                         scp -o StrictHostKeyChecking=no \
