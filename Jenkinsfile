@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_IP = '13.201.26.185'
+        EC2_IP = '3.109.186.169'
         EC2_USER = 'ubuntu'
         TOMCAT_WEBAPPS = '/var/lib/tomcat10/webapps'
         SONAR_PROJECT_KEY = 'petclinic'
