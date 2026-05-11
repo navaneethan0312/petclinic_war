@@ -1,5 +1,8 @@
 pipeline {
     agent any
+     tools {
+        maven 'Maven3'   // ← must match the name you gave above
+    }
 
     environment {
         EC2_IP = '3.109.186.169'
