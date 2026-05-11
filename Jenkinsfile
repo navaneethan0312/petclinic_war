@@ -8,10 +8,6 @@ pipeline {
         SONAR_PROJECT_KEY = 'petclinic'
     }
 
-    tools {
-        maven 'Maven_3.0'  // Must match the name you gave in Jenkins Tools config
-    }
-
     stages {
 
         stage('Checkout') {
