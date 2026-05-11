@@ -2,6 +2,7 @@ pipeline {
     agent any
      tools {
         maven 'Maven3'   // ← must match the name you gave above
+        jdk 'JDK17'
     }
 
     environment {
