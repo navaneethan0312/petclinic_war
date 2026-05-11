@@ -9,7 +9,7 @@ pipeline {
     }
 
     tools {
-        maven 'Maven3'  // Must match the name you gave in Jenkins Tools config
+        maven 'Maven_3.0'  // Must match the name you gave in Jenkins Tools config
     }
 
     stages {
